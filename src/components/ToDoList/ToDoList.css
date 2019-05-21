@@ -1,0 +1,100 @@
+.page-container {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom,#efefef,#fff);
+  align-items: center;
+  padding-top: 30px;
+}
+
+.to-do-container {
+  width: 85%;
+  background-color: #fff;
+  min-height: 200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.project-title {
+  margin: 20px auto;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-item {
+  width: 80%;
+  background-color: #efefef;
+  min-height: 50px;
+  margin: 3px auto;
+  display: flex;
+  flex-direction: row;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+.done-button {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #a9a9a9;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.checkedbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 20px;
+  color: green;
+}
+
+.new-task-submit-button {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a2a2a2;
+  cursor: pointer;
+}
+
+.new-task-input {
+  border: none;
+  background-color: #efefef;
+  font-size: 1rem;
+  width: 80%;
+}
+
+.valid {
+  color: #ff3b3f;
+}
+
+.new-project-input {
+  border: none;
+  background-color: white;
+  font-size: 1rem;
+  width: 50%;
+  margin: 20px auto;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}

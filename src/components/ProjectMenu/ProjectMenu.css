@@ -1,0 +1,43 @@
+.projects-container {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #d2d2d2;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  box-shadow: 0px 1px 2px #a9a9a9;
+  z-index: 50;
+}
+
+.project {
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  max-width: 20%;
+  flex-grow: 1;
+  color: #4e4e4e;
+  background-color: #caebf2;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.project-add {
+  width: 5%;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: #4e4e4e;
+  background-color: #caebf2;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.project :hover {
+  background-color: #ff3b3f;
+}
